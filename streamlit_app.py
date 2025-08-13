@@ -1,4 +1,5 @@
 import streamlit as st
+<<<<<<< HEAD
 import pandas as pd
 import numpy as np
 
@@ -53,3 +54,9 @@ st.download_button("Download Data", data=chart_data.to_csv(), file_name="data.cs
 # st.sidebar.slider("Sidebar Slider", 0, 100, 50)   
 # st.sidebar.checkbox("Sidebar Checkbox")
 # st.sidebar.radio("Sidebar Radio", ["Choice 1", "Choice 2", "Choice 3"])
+=======
+
+st.title('🎈 App Name')
+
+st.write('Hello world!')
+>>>>>>> c359f1f72695b214017449ff74ab9668d8b255b2
